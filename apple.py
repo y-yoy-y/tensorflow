@@ -25,6 +25,7 @@ train_step = tf.train.GradientDescentOptimizer(0.02).minimize(loss)
 train_x = np.array([[1.,3.],[3.,1.],[5.,7.]])
 train_y = np.array([190.,330.,660.]).reshape(3,1)
 
+
 print 'x',train_x
 print 'y',train_y
 
